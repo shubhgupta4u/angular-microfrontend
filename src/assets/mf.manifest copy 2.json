@@ -1,0 +1,7 @@
+{
+	"account": "http://localhost:4201/remoteEntry.js",
+	"merchant": "http://localhost:4202/remoteEntry.js",
+	"order": "http://localhost:4203/remoteEntry.js",
+	"payment": "http://localhost:4204/remoteEntry.js",
+	"product": "http://localhost:4205/remoteEntry.js"
+}

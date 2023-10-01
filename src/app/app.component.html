@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: #04aa6d;
+    }
+
+    .active {
+      background-color: #000;
+    }
+  </style>
+</head>
+
+<body>
+  <ul>
+    <li><a routerLinkActive="active" href="#home" routerLink="/">Home</a></li>
+    <li><a routerLinkActive="active" href="#account" routerLink="/account">Account</a></li>
+    <li><a routerLinkActive="active" href="#merchant" routerLink="/merchant">Merchant</a></li>
+    <li><a routerLinkActive="active" href="#order" routerLink="/order">Order</a></li>
+    <li><a routerLinkActive="active" href="#payment" routerLink="/payment">Payment</a></li>
+    <li><a routerLinkActive="active" href="#product" routerLink="/product">Product</a></li>
+  </ul>
+
+  <div>
+    <router-outlet></router-outlet>
+  </div>
+</body>
+
+</html>

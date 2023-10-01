@@ -1,0 +1,22 @@
+{  
+    "payment": {
+        "isActive": true,
+        "remoteEntry": "http://localhost:4204/remoteEntry.js",
+        "exposedModule": "./AppModule",
+        "displayName": "Payment",
+        "routePath": "payment",
+        "ngModuleName": "AppModule",
+        "viaRoute": true,
+        "withInPage": false
+    },
+    "product": {
+        "isActive": true,
+        "remoteEntry": "http://localhost:4205/remoteEntry.js",
+        "exposedModule": "./AppModule",
+        "displayName": "Product",
+        "routePath": "product",
+        "ngModuleName": "AppModule",
+        "viaRoute": true,
+        "withInPage": false
+    }
+}

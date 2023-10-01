@@ -1,0 +1,4 @@
+{
+	"merchant": "http://localhost:4202/remoteEntry.js",
+	"order": "http://localhost:4203/remoteEntry.js"
+}
